@@ -1,0 +1,42 @@
+
+train_set : The training set
+
+test_set : The test set
+
+merged_data : the merged training and test sets such that the test set is below the training set
+
+features : data frame containing the features along with their serial numbers
+
+features_mean : features having the measurements on mean for each measurement
+
+features_std : features having the measurements on standard deviation for each measurement
+
+features_mean_std : row bind of features_mean and feautres_std such that the data set features_mean_std now contains the features having measurements on mean and standard deviation for each measurement
+
+features_mean_std_sorted : features having the measurements on mean and standard deviation for each measurement such that they are sorted according to the serial number
+
+indices : the serial nos of the data set containing only the measurements on mean and standard deviation
+
+merged_data_mean_std : the data set containing the measurements on mean and standard deviation for each measurement such that they are sorted according to the serial number
+
+train_label : the training labels
+
+test_label : the test labels
+
+label : row bind of training and test labels
+
+activity_labels : the activity names along with their labels
+
+activity : mapping of the activities to the labels corresponding to the data set containing the measurements
+
+activity_merged_data_mean_std : mapping of the activities to the data set containing measurements
+
+subject_train : the training data set specifying the subject on whom the measurement was made
+
+subject_test : the test data set specifying the subject on whom the measurement was made
+
+subject : row binding of subject_train and subject_test
+
+subject_activity_merged_data_mean_std : data set specifying the measurements of only mean and standard deviation such that the subject on whom the measurement and the activity he was performing is also mapped
+
+avg_subject_activity : the independent tidy data set with the average of each variable for each activity and each subject
